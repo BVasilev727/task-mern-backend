@@ -8,4 +8,4 @@ COPY . /app
 RUN npm install
 #Entry point
 EXPOSE 8000
-CMD["npm","start"]
+CMD ["npm","start"]
